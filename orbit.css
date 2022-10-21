@@ -86,12 +86,6 @@ html,body{
   background: radial-gradient(#ddd,#888);
   margin-left: 20px;
 }
-body {
-  font-family: Arial, sans-serif;
-  background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
 
 h1 {
   text-align: center;
