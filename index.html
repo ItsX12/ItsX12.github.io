@@ -6,24 +6,27 @@
     <link rel="stylesheet" href="orbit.css"
   </head>
   <body id="universe">
+<script>
+$(function() {
+  $('.pop-up').hide();
+  $('.pop-up').fadeIn(1000);
+  
+      $('.close-button').click(function (e) { 
+
+      $('.pop-up').fadeOut(700);
+      $('#overlay').removeClass('blur-in');
+      $('#overlay').addClass('blur-out');
+      e.stopPropagation();
+        
+    });
+ });
+</script>
 <div id="stars"> </div>
 <div id="sun"> </div>
 <div id="earthorbit">
 <img src="earth.png" alt="Earth" id ="earth">
 <div id="moonorbit">
 <div id="moon"></div>
-<div class="box">
-	<a class="button" href="#popup1">Hi</a>
-</div>
-<div id="popup1" class="overlay">
-	<div class="popup">
-		<h2>Links</h2>
-		<a class="close" href="#">&times;</a>
-		<div class="content">
-			Stuff
-		</div>
-	</div>
-</div>
 </script>
   </body>
 </html>
