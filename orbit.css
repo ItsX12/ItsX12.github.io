@@ -63,6 +63,7 @@ html,body{
 }
 #earth{
   position: absolute;
+  cursor:pointer;
   top: 50%;
   left: 0;
   margin-top: -220px;
@@ -80,7 +81,6 @@ html,body{
 }
 #moon{
   height: 20px;
-  cursor:pointer;
   width: 20px;
   background: grey;
   border-radius: 100%;
