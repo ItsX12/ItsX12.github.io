@@ -80,6 +80,7 @@ html,body{
 }
 #moon{
   height: 20px;
+  cursor:pointer;
   width: 20px;
   background: grey;
   border-radius: 100%;
