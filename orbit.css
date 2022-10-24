@@ -65,7 +65,7 @@ html,body{
   position: absolute;
   top: 50%;
   left: 0;
-  margin-top: -220px;
+  margin-top: -110px;
   animation: spin 3s linear infinite;
 }
 #moonorbit{
@@ -74,7 +74,7 @@ html,body{
   height: 120px;
   width: 120px;
   margin-top: 110px;
-  margin-left: -20px;
+  margin-left: -45px;
   border-radius: 100%;
   animation: spin 4s linear infinite reverse;
 }
